@@ -1,0 +1,178 @@
+/* UNIVERSAL STYLES */
+html {
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica;
+    font-size: 22px;
+    text-align: center;
+    opacity: 0.9;
+}
+
+/* HEADER SECTION */
+header {
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: flex-end;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 69px;
+    z-index: 10;
+}
+
+a {
+    text-decoration: underline;
+    color: seashell;
+}
+
+.logo {
+    margin-left: 10px;
+    position: fixed;
+    top: 9.5px;
+    left: 10px;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+header nav {
+    justify-content: flex-end;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    display: inline-block;
+    margin: 15px;
+}
+
+/* MAIN CONTAINER */
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 69px;
+}
+
+/* MISSION SECTION */
+#mission {
+    background-image: url("../images/img-mission-background.jpg");
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mission-statement {
+    background-color: black;
+    opacity: 0.9;
+}
+
+.mission-statement h2 {
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+.mission-statement h4 {
+    margin: 10px;
+}
+
+/* TEA OF THE MONTH SECTION */
+#teas {
+    width: 1000px;
+    display: block;
+    align-items: center;
+    margin-bottom: 50px;
+    padding-top: 69px;
+    opacity: 0.9;
+}
+
+.menu {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tea-items {
+    padding: 0 15px;
+}
+
+.tea-items img {
+    display: block;
+    width: 300px;
+    height: 200px;
+}
+
+.tea-items h4 {
+    margin-top: 10px;
+}
+
+/* LOCATIONS SECTION */
+#locations {
+    background-image: url("../images/img-locations-background.jpg");
+    width: 1200px;
+    height: 500px;
+    padding-top: 69px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.9;
+}
+
+.loc-options {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.loc {
+    width: 300px;
+    margin: 0 20px;
+    background-color: black;
+    opacity: 0.9;
+    display: block;
+}
+
+.loc p {
+    margin: 40px 0;
+}
+
+/* INFO SECTION */
+.info {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    opacity: 0.9;
+    padding-top: 69px;
+}
+
+.info h2 {
+    padding-bottom: 15px;
+}
+
+.info h5 {
+    margin: 15px;
+}
+
+/* FOOTER SECTION */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+footer h5 {
+    margin-left: 20px;
+}
